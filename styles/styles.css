@@ -1,0 +1,34 @@
+body{
+    background-color: #352f5b;
+}
+.container{
+    max-width: 400px;
+}
+.search-bar,
+.search-bar:focus{
+    background-color: #423a6f !important;
+    color: white !important;
+    border: none;
+    
+}
+.list-custom li{
+    background-color: #423a6f;
+    color: white;
+}
+.btn-costum{
+    background-color: #6c36cf;
+    color:rgb(0, 0, 0) !important ;
+    font-size: 18px;
+}
+input[type=text],input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+.delet-icon{
+    cursor: pointer;
+}
+.hide{
+    display: none !important;
+}

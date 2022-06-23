@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <!-- bootstrap -->
+    <script src="bootstrap cdns/popper.min.js"></script>
+    <script src="bootstrap cdns/jquery.min.js"></script>
+    <script src="bootstrap cdns/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap cdns/bootstrap.min.css">
+    <!-- font awsome -->
+    <script src="font awsome/all.min.js"></script>
+    <link rel="stylesheet" href="font awsome/all.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mb-4  display-4 text-center text-white">
+            Todo List
+        </h1>
+        <form class="form-search my-3">
+            <div class="row-auto">
+                <input type="search" name="search-box" placeholder="search Todo" class="search-bar form-control  mx-auto text-white">
+            </div>
+            
+        </form>
+        <div class="row-auto">
+            <ul class="list-group  mx-auto my-2 list-custom">
+                <li class="list-group-item d-flex justify-content-between align-items-center list-costum">
+                    <span>study js</span> 
+                    <i class="far fa-trash-alt delet-icon"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center list-costum">
+                    <span>study css</span> 
+                    <i class="far fa-trash-alt delet-icon"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center list-costum">
+                    <span>study html</span> 
+                    <i class="far fa-trash-alt delet-icon"></i>
+                </li>
+               
+                
+              </ul>
+              
+        </div>
+        <!-- <div class="row-auto">
+            <div class="col-2 mx-auto">
+                <div class="btn  text-center text-white mx-auto btn-costum border-0 "> add a new Todo ...</div>
+            </div>
+        </div> -->
+        <div class="row-auto">
+            <form  class="form-add  mx-auto">
+                <label class="text-light text-center">Add a new todo....</label>
+                <input type="text" class="form-control m-auto" name="add1">
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- sandbox.js -->
+    <script src="scripts/sandbox.js"></script>
+</body>
+</html>
